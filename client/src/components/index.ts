@@ -1,0 +1,6 @@
+export { default as FileUpload } from "./FileUpload/FileUpload"
+export { default as Button } from "./Button/Button"
+export { default as Files } from "./Files/Files"
+export { default as File } from "./File/File"
+export { default as Downloading } from "./Downloading/Downloading"
+export { default as FileDrop } from "./FileDrop/FileDrop"

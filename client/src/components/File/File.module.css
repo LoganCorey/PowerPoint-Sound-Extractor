@@ -1,0 +1,41 @@
+.file__container {
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  min-height: 150px;
+  background-color: rgba(0, 0, 0, 0.03);
+  box-sizing: border-box;
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+
+  /*animation-name: slide-down;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;*/
+}
+
+.file {
+  border-spacing: 20px !important;
+}
+
+.button {
+  border: none;
+  color: #b7472a;
+  background: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #eb5b36;
+  transition: 0.5s linear;
+}
+
+.upload__icon {
+  color: #b7472a;
+}
+
+.row {
+  text-align: center;
+}

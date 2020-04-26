@@ -1,0 +1,96 @@
+.border {
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  transition: 1s linear;
+  -webkit-box-shadow: -5px 9px 5px 0px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: -5px 9px 5px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: -5px 9px 5px 0px rgba(0, 0, 0, 0.13);
+}
+
+.FileUploadContainer {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  border: 2px dashed rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  transition: 0.5s linear;
+}
+
+.file__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.FileUploadContainer:hover {
+  /*background-color: rgba(0, 0, 0, 0.07);*/
+  border: 2px dashed #b7472a;
+  transition: 0.5s linear;
+}
+.FileUploadContainer:hover > .upload__icon {
+  top: -15px;
+  transition: 1s all ease-in;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  color: #b7472a;
+}
+
+.hover__border {
+  border: 2px dashed #b7472a;
+  transition: 0.5s linear;
+}
+.hover__icon {
+  transition: 1s all ease-in;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  color: #b7472a !important;
+}
+.upload__icon {
+  position: relative;
+  transition: 0.4s linear;
+  color: rgba(0, 0, 0, 0.3);
+  top: 0px;
+}
+
+.button {
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #b7472a;
+  color: white;
+  border: none;
+  width: 30%;
+  margin: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: bold;
+  border: #f75f38;
+}
+
+.button:hover {
+  background-color: #eb5b36;
+  transition: 0.5s linear;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
